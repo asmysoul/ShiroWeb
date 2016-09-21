@@ -7,12 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="">
+
+	<form  method="post">
 		用户名：<input type="text" name="userName"> 
 		<br/>
 		密码：<input type="text" name="password">
 		<br/>
 		<input type="submit" value="提交">		      
 	</form>
+	<br />
+	<h1>${errorMsg }</h1>
 </body>
 </html>
